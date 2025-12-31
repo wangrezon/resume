@@ -4,13 +4,10 @@
 
 - 工作模式：Remote
 
-- 联系方式：185-0054-7810 / wangrozen@outlook.com
-
-- 社交媒体：
-
-  - X：https://x.com/Rozen_Wang
-
-  - GitHub：https://github.com/wangrezon
+- 联系方式：
+  - Email: wangrozen@outlook.com
+  - X: https://x.com/Rozen_Wang
+  - GitHub: https://github.com/wangrezon
 
 ## 核心技能栈
 

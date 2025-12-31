@@ -4,12 +4,9 @@
 
 - Work Mode: Remote
 
-- Contact: 185-0054-7810 / wangrozen@outlook.com
-
-- Social Media:
-
+- Contact:
+  - Email: wangrozen@outlook.com
   - X: https://x.com/Rozen_Wang
-
   - GitHub: https://github.com/wangrezon
 
 ## Core Skills
