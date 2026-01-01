@@ -1,5 +1,6 @@
-import { Button } from "@/components/ui/button";
+import { redirect } from "next/navigation";
+import { routing } from "@/i18n/routing";
 
-export default function Home() {
-  return <Button>Button</Button>;
+export default function RootPage() {
+  redirect("/" + routing.defaultLocale);
 }
