@@ -9,7 +9,7 @@
   - X: https://x.com/Rozen_Wang
   - GitHub: https://github.com/wangrezon
 
-## 核心技能栈
+## 核心技术栈
 
 - TypeScript
 - JavaScript

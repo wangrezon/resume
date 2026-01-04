@@ -35,11 +35,11 @@ export default async function Home() {
       {/* Hero Section */}
       <Hero />
 
-      {/* Skills Section */}
-      <Skills />
-
       {/* App Shows Section */}
       <AppShows />
+
+      {/* Skills Section */}
+      <Skills />
 
       {/* Experience Section */}
       <Experience />
