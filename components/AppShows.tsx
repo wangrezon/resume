@@ -8,7 +8,7 @@ export const AppShows = () => {
   const t = useTranslations("Sections");
 
   return (
-    <section className="relative h-screen flex flex-col justify-center py-16 px-4 max-w-6xl mx-auto snap-start snap-always">
+    <section className="relative h-dvh flex flex-col justify-center py-16 px-4 max-w-6xl mx-auto snap-start snap-always">
       <motion.h2
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
@@ -23,7 +23,7 @@ export const AppShows = () => {
           initial={{ opacity: 0, y: 30, scale: 0.9 }}
           whileInView={{ opacity: 1, y: 0, scale: 1 }}
           viewport={{ once: true }}
-          transition={{ 
+          transition={{
             type: "spring",
             stiffness: 260,
             damping: 20
@@ -32,40 +32,38 @@ export const AppShows = () => {
         >
           {/* Decorative background element */}
           <div className="absolute top-0 right-0 w-24 h-24 bg-white/20 dark:bg-white/5 rounded-bl-[6rem] group-hover:w-28 group-hover:h-28 transition-all duration-500" />
-          
-          <motion.div 
-            animate={{ 
+
+          <motion.div
+            animate={{
               rotate: [0, 10, -10, 0],
               scale: [1, 1.1, 1]
             }}
-            transition={{ 
-              duration: 4, 
+            transition={{
+              duration: 4,
               repeat: Infinity,
-              ease: "easeInOut" 
+              ease: "easeInOut"
             }}
             className="clay-card p-6 bg-white dark:bg-slate-800 mb-8"
           >
             <Sparkles size={48} className="text-purple-500" />
           </motion.div>
-          
+
           <h3 className="font-heading text-3xl font-black text-slate-900 dark:text-slate-50 mb-4 tracking-tight">
-            {t("comingSoon")}
+            Coming Soon
           </h3>
-          
+
           <p className="font-sans text-slate-600 dark:text-slate-400 text-lg font-bold">
             Stay tuned for amazing projects!
           </p>
 
-          <motion.div 
-            className="mt-10 w-full h-2 bg-slate-200 dark:bg-slate-800 rounded-full overflow-hidden"
-          >
-            <motion.div 
-              animate={{ 
+          <motion.div className="mt-10 w-full h-2 bg-slate-200 dark:bg-slate-800 rounded-full overflow-hidden">
+            <motion.div
+              animate={{
                 x: ["-100%", "100%"]
               }}
-              transition={{ 
-                duration: 2, 
-                repeat: Infinity, 
+              transition={{
+                duration: 2,
+                repeat: Infinity,
                 ease: "linear"
               }}
               className="h-full w-1/2 bg-linear-to-r from-transparent via-purple-500 to-transparent"

@@ -85,7 +85,7 @@ export const Experience = () => {
             {experiences.map((exp, index) => (
               <div
                 key={exp.company + exp.period}
-                className="relative shrink-0 w-[350px] md:w-[500px] h-full flex flex-col items-center justify-center"
+                className="relative shrink-0 w-[480px] md:w-[640px] h-full flex flex-col items-center justify-center"
               >
                 {/* Timeline Dot Connector - Always centered on the line */}
                 <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-12 h-12 clay-card bg-white dark:bg-slate-800 border-4 border-purple-500 flex items-center justify-center z-30 shadow-lg">

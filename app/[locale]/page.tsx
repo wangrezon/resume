@@ -1,8 +1,8 @@
 import Image from "next/image";
-import { Hero } from "@/components/playful-resume/Hero";
-import { Skills } from "@/components/playful-resume/Skills";
-import { AppShows } from "@/components/playful-resume/AppShows";
-import { Experience } from "@/components/playful-resume/Experience";
+import { Hero } from "@/components/Hero";
+import { Skills } from "@/components/Skills";
+import { AppShows } from "@/components/AppShows";
+import { Experience } from "@/components/Experience";
 import { ThemeToggle } from "@/components/ThemeToggle";
 import { IntlToggle } from "@/components/IntlToggle";
 
@@ -14,7 +14,7 @@ export default async function Home() {
     >
       {/* Navigation */}
       <nav className="fixed top-6 left-1/2 -translate-x-1/2 z-50 px-6 py-3 clay-card bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 flex items-center gap-6 shadow-xl">
-        <div className="flex items-center gap-2 pr-4 border-r border-slate-200 dark:border-slate-800">
+        <div className="flex items-center gap-2 pr-4 border-r border-slate-200 dark:border-slate-800 shrink-0">
           <Image
             src="/avatar.webp"
             alt="Logo"

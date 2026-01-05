@@ -8,8 +8,7 @@
   "Sections": {
     "skills": "Core Skills",
     "experience": "Work Experience",
-    "apps": "App Shows",
-    "comingSoon": "Coming Soon"
+    "apps": "App Shows"
   },
   "Experience": [
     {
@@ -25,7 +24,7 @@
     {
       "period": "2021.9-2024.7",
       "company": "Waysia (ex Alorsfaim)",
-      "description": "Led the Web Client 2.0 project from 0 to 1 for the French food delivery platform, completed performance optimization, SEO and PWA deployment, built WMS backend system and product management system architecture, promoted business development, while maintaining and iterating on legacy business modules to ensure smooth platform operation"
+      "description": "Spearheaded Web Client 2.0 (0-to-1) for a French food delivery platform, with performance optimization, SEO and PWA deployment delivered; built WMS & product management system architecture to boost business; maintained and iterated legacy modules for stable platform operation."
     },
     {
       "period": "2020.5-2021.9",

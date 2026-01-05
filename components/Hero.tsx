@@ -9,7 +9,7 @@ export const Hero = () => {
   const t = useTranslations("Hero");
 
   return (
-    <section className="relative h-screen flex flex-col items-center justify-center text-center px-4 overflow-hidden snap-start snap-always">
+    <section className="relative h-dvh flex flex-col items-center justify-center text-center px-4 overflow-hidden snap-start snap-always">
       {/* Background blobs for playful feel */}
       <div className="absolute top-0 left-1/4 w-64 h-64 bg-purple-300 rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-blob" />
       <div className="absolute top-0 right-1/4 w-64 h-64 bg-yellow-200 rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-blob animation-delay-2000" />

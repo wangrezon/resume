@@ -10,7 +10,7 @@ export const Skills = () => {
   const skills = messages.Skills || [];
 
   return (
-    <section className="relative h-screen flex flex-col justify-center py-16 px-4 max-w-6xl mx-auto snap-start snap-always">
+    <section className="relative h-dvh flex flex-col justify-center py-16 px-4 max-w-6xl mx-auto snap-start snap-always">
       <motion.h2
         initial={{ opacity: 0, x: -20 }}
         whileInView={{ opacity: 1, x: 0 }}
