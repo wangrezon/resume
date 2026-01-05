@@ -58,11 +58,11 @@ export const Hero = () => {
         initial={{ y: 20, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ delay: 0.4 }}
-        className="flex flex-col items-center gap-6"
+        className="flex flex-col items-center gap-6 w-full"
       >
         <a
           href="mailto:wangrozen@outlook.com"
-          className="clay-card group flex items-center gap-4 px-8 py-5 bg-white dark:bg-slate-900 border-2 border-slate-100 dark:border-slate-800 hover:border-rose-300 transition-all duration-300 shadow-xl"
+          className="clay-card group max-w-full flex items-center gap-4 px-8 py-5 bg-white dark:bg-slate-900 border-2 border-slate-100 dark:border-slate-800 hover:border-rose-300 transition-all duration-300 shadow-xl"
           title="Email"
         >
           <div className="clay-button p-3 text-white bg-rose-500 group-hover:rotate-12 transition-transform shadow-lg">

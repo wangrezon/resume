@@ -59,7 +59,7 @@ export const Experience = () => {
       ref={targetRef}
       className="timeline-horizontal-container relative snap-start snap-always"
     >
-      <div className="timeline-sticky sticky top-0 h-screen overflow-hidden pt-24 md:pt-28">
+      <div className="timeline-sticky sticky top-0 h-dvh overflow-hidden pt-24 md:pt-28">
         {/* Title Section */}
         <div className="max-w-6xl mx-auto w-full px-4 mb-8 relative z-30">
           <motion.h2
