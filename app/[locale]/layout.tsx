@@ -1,5 +1,6 @@
 import "./globals.css";
 
+import { Analytics } from "@vercel/analytics/next";
 import type { Metadata, Viewport } from "next";
 import { Geist, Geist_Mono, Fredoka, Nunito } from "next/font/google";
 import { NextIntlClientProvider } from "next-intl";
@@ -75,6 +76,7 @@ export default async function LocaleLayout({
             {children}
           </NextIntlClientProvider>
         </ThemeProvider>
+        <Analytics />
       </body>
     </html>
   );
